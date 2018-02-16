@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Javascript Calculator</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Orbitron:medium,bold">
+</head>
+<body>
+  <div class = 'container'>
+    <div class='calculator'>
+      <div class ='display'>
+        <p id='display'>0</p>
+        <p id='result'>0</p>
+      </div>
+      <div class = 'buttons' >
+        <div id='buttons-left'>
+        <button type="button" name="clear" value="Clear" onclick="clearDisplay();">AC</button>
+        <button type="button" name="delete" value="delete" onclick="backSpace();">C</button>
+        <button class="math operator" type="button" name="divide" value='/' onclick=""> /</button>
+        <button class="math number" type="button" name="" value=7 onclick=""> 7 </button>
+        <button class="math number" type="button" name="" value=8 onclick=""> 8 </button>
+        <button class="math number" type="button" name="" value=9 onclick=""> 9 </button>
+        <button class="math number" type="button" name="" value=4 onclick=""> 4 </button>
+        <button class="math number" type="button" name="" value=5 onclick=""> 5 </button>
+        <button class="math number" type="button" name="" value=6 onclick=""> 6 </button>
+        <button class="math number" type="button" name="" value=1 onclick=""> 1 </button>
+        <button class="math number" type="button" name="" value=2 onclick=""> 2 </button>
+        <button class="math number" type="button" name="" value=3 onclick=""> 3 </button> 
+        <button id="zero"class="math number" type="button" name="" value=0 onclick=""> 0 </button>
+        <button class="math decimal" type="button" name="" value='.' onclick=""> . </button> 
+      </div>
+      <div id='buttons-right'>     
+        <button class="math operator" type="button" name="multiply" value='*' onclick=""> x </button>
+        <button class="math operator" type="button" name="subtract" value='-' onclick=""> - </button>
+        <button class="math operator" type="button" name="add" value='+' onclick=""> + </button>
+        <button id="equal" type="button" name="equal" value="=" onclick=""> = </button>
+      </div>
+     </div>    
+    </div>
+  </div>
+  
+  <script src="script.js"></script> 
+
+</body>
+</html>
+
+

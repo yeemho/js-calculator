@@ -1,0 +1,64 @@
+
+.display {
+  border: solid;
+  border-radius: 10px;
+  background: black;
+  padding: 5px 20px 5px 20px;
+  margin: 20px;
+  font-family: Orbitron;
+}
+
+#result, #display {
+  font: 40px Orbitron;
+  margin: 0px;
+  padding: 5px;
+}
+
+#result {color:#3498db;}
+#display {color: #b3b6b7;}
+
+.calculator {
+  width: 400px;
+  height: 600px;
+  border-radius: 25px;
+  margin:auto;
+  padding:10px;
+  background: #99a3a4;
+  box-shadow: 10px 10px 8px inset #888888;
+}
+
+#buttons-left {
+  width:260px;
+  display:inline-block;
+  margin: 0px 0px 10px 30px;
+}
+
+#buttons-right {  
+  width:90px;
+  padding:0px;
+  position:relative;
+  top:-41px;
+  left:-2px;
+  display:inline-block;
+ 
+}
+
+button {
+  height:80px;
+  width: 80px;
+  background: #aed6f1;
+  margin: 1px;
+  font: 30px Orbitron;
+}
+
+button[name=clear], button[name=delete] {
+  color: #CD5C5C;
+}
+
+#zero {
+  width: 167px;
+}
+
+#equal {
+  height:162px;
+}
